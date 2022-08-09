@@ -496,7 +496,7 @@ console.log(checkLeapYear(years))
  Write a function findOddSum() that will take the array [ 5, 7, 8, 10, 45, 30 ]
 as the input parameter and will return the sum of the odd numbers.
  */
-/* 
+/*
 function oddEvenSum(numbers) {
     let oddSum = 0;
     let evenSum = 0;
@@ -512,5 +512,102 @@ function oddEvenSum(numbers) {
     return { oddSum, evenSum }
 }
 const numbers = [1, 3, 6, 8, 9, 55, 44, 22, 66, 77]
-console.log(oddEvenSum(numbers)) 
+console.log(oddEvenSum(numbers))
+*/
+// =====================================30=========================
+/*
+ write a function what will take your age as a paraeter and return true if your age is even number  And return false if your age is odd number
+ */
+/*
+function oddEven(age) {
+    if (age % 2 === 0) {
+        return true
+    }
+    else {
+        return false
+    }
+}
+console.log(oddEven(25))
+*/
+
+// ====================================31============================
+// write a loop what will run 1 to 100
+
+/*
+for (let i = 1; i <= 100; i++) {
+    console.log(i)
+}
+*/
+// ===================================32================================
+// show 30 to 80 all odd number
+/*
+ function oddNumber() {
+    for (let i = 50; i <= 80; i++) {
+        if (i % 2 !== 0) {
+            console.log(i)
+        }
+    }
+}
+console.log(oddNumber())
+*/
+// =====================================33===============================
+// write a function what will take 3 parameter and return sum
+/*
+function sum(n1, n2, n3) {
+    return result = n1 + n2 + n3;
+}
+console.log(sum(1, 2, 3))
+*/
+
+// ======================================34=================================
+// write a program to convert celcius to farenheight to farenheit
+
+// celcius to farenheit
+/*
+ function celToFaren(celcius) {
+    let farenheit = (celcius * 9 / 5) + 32;
+    console.log(farenheit)
+}
+celToFaren(100)
+*/
+
+// farenheit to celcius
+/*
+function farenToCel(farenheit) {
+    let celcius = (farenheit - 32) * 5 / 9;
+    console.log(celcius)
+}
+farenToCel(100)
+ */
+
+// =================================35================================
+// ---------function grading---------------
+/*
+ function grading(marks) {
+    switch (true) {
+        case marks >= 80 && marks <= 100:
+            console.log('A+')
+            return;
+        case marks >= 70 && marks <= 79:
+            console.log('A')
+            return;
+        case marks >= 60 && marks <= 69:
+            console.log('A-')
+            return;
+        case marks >= 50 && marks <= 59:
+            console.log('B')
+            return;
+        case marks >= 40 && marks <= 49:
+            console.log('C')
+            return;
+        case marks >= 33 && marks <= 39:
+            console.log('D')
+            return;
+        case marks >= 0 && marks <= 32:
+            console.log('F')
+            return;
+        default: console.log('enter a valid number');
+    }
+}
+grading(10) 
 */
