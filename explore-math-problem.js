@@ -104,7 +104,7 @@ else {
  */
 // =======================================07==============================
 /*
- 9) You are given a triangle with the sides 9, 8, 9. Write a program to check
+ 07) You are given a triangle with the sides 9, 8, 9. Write a program to check
 whether a triangle is Isosceles or not using if-else.
 Isosceles => two sides are equal
  */
@@ -119,5 +119,71 @@ if (side1 == side2 || side1 == side3 || side2 == side3) {
 }
 else {
     console.log('This is not a isosceles')
+}
+*/
+
+// =============================08===========================
+
+/*
+8) You and your friends Tom, Jane, Peter and John got their final exam
+results. Your total score is 85, Tom’s total score is 66, Jane’s total score is
+95, Peter’s total score is 56 and John’s total score is 40. The grading
+chart is
+80 or above A grade
+60 or above B grade
+50 or above C grade
+40 or above D grade
+39 or less => F grade
+Write a program to find your and your friends’ grades using
+if-else.
+ */
+
+// use if else
+
+/*
+ let marks = 80;
+if (marks >= 80 && marks < 100) {
+    console.log('You got A')
+}
+else if (marks >= 60 && marks < 80) {
+    console.log('You got B')
+}
+else if (marks >= 50 && marks < 60) {
+    console.log('You got C')
+}
+else if (marks >= 40 && marks < 50) {
+    console.log('You got d')
+}
+else if (marks <= 39 && marks >= 0) {
+    console.log('You are fail')
+}
+else {
+    console.log('Give a valid number')
+}
+ */
+
+// =====method 2 ----use switch =======
+
+/*
+ let marks = 67;
+switch (true) {
+    case marks >= 80 && marks <= 100:
+        console.log('You got A')
+        return;
+    case marks >= 60 && marks < 80:
+        console.log('You got B')
+        return;
+    case marks >= 50 && marks < 60:
+        console.log('You got C')
+        return;
+    case marks >= 40 && marks < 50:
+        console.log('You got D')
+        return;
+    case marks <= 39 && marks >= 0:
+        console.log('You are Fail')
+        return;
+    default: console.log('Enter a valid number')
 } 
 */
+
+
