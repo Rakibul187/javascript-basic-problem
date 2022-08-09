@@ -183,7 +183,58 @@ switch (true) {
         console.log('You are Fail')
         return;
     default: console.log('Enter a valid number')
-} 
+}
+*/
+// =====================09======================
+/*
+ you reguler works :
+1. Module unlock at 8pm.
+2. watch Video.
+3. notes
+4.practice by self
+5. join support
+Now  run a for loop 10 times and get all the outputs above.
 */
 
+// var works = ['Module unlock at 8pm', 'watch Video', 'notes', 'practice by self', 'join support']
+
+// using for
+/*
+ for (let i = 1; i <= 10; i++) {
+    console.log(i)
+    for (let i = 0; i < works.length; i++) {
+        let work = works[i]
+        console.log(work)
+    }
+}
+*/
+
+// using while
+/* let j = 1;
+while (j <= 10) {
+    console.log(j)
+    j++
+    let i = 0;
+    while (i < works.length) {
+        console.log(works[i])
+        i++
+    }
+}
+ */
+
+// =========================10=======================
+
+// road crossing signal . 1. green----you can cross the road.  2. yellow ---danger, you should have to stop.   3. red ,road block you should have to wait. now write a program about traffic signal.
+
+const signal = 'red';
+
+if (signal === 'green') {
+    console.log('You can cross the road')
+}
+else if (signal === 'red') {
+    console.log('wait ! when signal will green then cross the road')
+}
+else if (signal === 'yellow') {
+    console.log('situation danger ! wait a bit')
+}
 
