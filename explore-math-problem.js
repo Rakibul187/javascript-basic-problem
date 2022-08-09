@@ -226,7 +226,7 @@ while (j <= 10) {
 
 // road crossing signal . 1. green----you can cross the road.  2. yellow ---danger, you should have to stop.   3. red ,road block you should have to wait. now write a program about traffic signal.
 
-const signal = 'red';
+/* const signal = 'red';
 
 if (signal === 'green') {
     console.log('You can cross the road')
@@ -236,5 +236,70 @@ else if (signal === 'red') {
 }
 else if (signal === 'yellow') {
     console.log('situation danger ! wait a bit')
+} */
+
+// ===========================11===============================
+//  'aske amar mon valo nei' show it 39 Times .
+
+/* for (let i = 0; i < 40; i++) {
+    console.log(i, 'aske amar mon valo nei')
+} */
+
+// ================================12==============================
+
+// write a code that will show numbers 58 to 98.
+
+/* for (let i = 58; i <= 98; i++) {
+    console.log(i)
+} */
+
+// ===============================13=============================
+
+// write a code that will show every even numbers of 412 to 456
+/*
+for (let i = 412; i <= 456; i += 2) {
+    console.log(i)
 }
+*/
+
+// ==============================14=================================
+
+// write a cade what will show every odd numbers from 581 to 623
+
+/*
+ for (let i = 581; i <= 623; i += 2) {
+    console.log(i)
+}
+*/
+
+// ========================================15==============================
+/*
+let learnedThings = ['HTML', 'CSS', 'HTML5', 'CSS3', 'BOOTSTRAP', 'TAIWIND', 'JAVASCRIPT']
+ */
+
+/*
+ for (let i = 0; i < learnedThings.length; i++) {
+    console.log(i, learnedThings[i])
+}
+*/
+// ==============================================16=======================
+/*
+let usedPhones = ['vivo', 'shymphony', 'walton', 'iphone', 'xaomi']
+let i = 0;
+while (i < usedPhones.length) {
+    console.log(usedPhones[i])
+    i++
+}
+*/
+// =======================================17==============================
+// run a for loop for 30 to 86. when loop reach 44 loop will stop.
+
+/*
+ for (let i = 30; i <= 86; i++) {
+    console.log(i)
+    if (i === 44) {
+        break
+    }
+} 
+ */
 
