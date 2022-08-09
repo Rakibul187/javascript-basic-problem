@@ -461,13 +461,13 @@ console.log(square(5))
 // =====================================27================================
 /*
  Write a function that will take hour as the input parameter and will convert it
-into minutes and will return the result in minutes. 
+into minutes and will return the result in minutes.
 */
-/* 
+/*
 function hourToMunite(hour) {
     return hour * 60
 }
-console.log(hourToMunite(5)) 
+console.log(hourToMunite(5))
 */
 
 // =======================================28======================================
@@ -477,7 +477,7 @@ console.log(hourToMunite(5))
     a year is a leap year insert that year in a new array, return the new array and
     print the result.
  */
-
+/*
 const years = [2022, 2023, 2024, 2025, 2026, 2027, 2028, 2029, 2030, 2031, 2032]
 function checkLeapYear(years) {
     let leapYear = []
@@ -490,3 +490,27 @@ function checkLeapYear(years) {
     return leapYear
 }
 console.log(checkLeapYear(years))
+*/
+// =============================================29==============================
+/*
+ Write a function findOddSum() that will take the array [ 5, 7, 8, 10, 45, 30 ]
+as the input parameter and will return the sum of the odd numbers.
+ */
+/* 
+function oddEvenSum(numbers) {
+    let oddSum = 0;
+    let evenSum = 0;
+    for (let i = 0; i < numbers.length; i++) {
+        let number = numbers[i]
+        if (number % 2 === 0) {
+            evenSum = evenSum + number
+        }
+        else {
+            oddSum = oddSum + number
+        }
+    }
+    return { oddSum, evenSum }
+}
+const numbers = [1, 3, 6, 8, 9, 55, 44, 22, 66, 77]
+console.log(oddEvenSum(numbers)) 
+*/
