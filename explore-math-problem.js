@@ -407,9 +407,9 @@ oddEven(10)
  */
 
 // ================================23============================
-// write a function which will show namta of 13 
+// write a function which will show namta of 13
 
-/* 
+/*
 function multification13() {
     for (let i = 1; i <= 10; i++) {
         let multification = 13;
@@ -417,5 +417,76 @@ function multification13() {
         console.log(13, '*', i, '=', multification)
     }
 }
-console.log(multification13()) 
+console.log(multification13())
 */
+
+// =====================================24==========================
+
+// write a function which will take uppercase  And return lowercase
+
+/*
+function uperToLowercase(something) {
+    let convert = something.toLowerCase();
+    return convert
+}
+let something = 'Mohiuddin';
+let result = uperToLowercase(something);
+console.log(result)
+*/
+
+// ========================================25==============================
+// write a function fullname that will take your first name and last name as parameter and wil return fullname
+
+/*
+function fullname(firstname, lastname) {
+    let fullname = firstname + ' ' + lastname;
+    return fullname;
+}
+
+const firstname = 'Riyad';
+const lastname = 'Ullah';
+const result = fullname(firstname, lastname);
+console.log(result)
+*/
+
+// ========================================26==========================
+
+// write a functin that will take number and return square number
+/*
+ function square(number) {
+    return number * number
+}
+console.log(square(5))
+ */
+// =====================================27================================
+/*
+ Write a function that will take hour as the input parameter and will convert it
+into minutes and will return the result in minutes. 
+*/
+/* 
+function hourToMunite(hour) {
+    return hour * 60
+}
+console.log(hourToMunite(5)) 
+*/
+
+// =======================================28======================================
+/*
+ Write a function findLeapYear() that will take the array [2023, 2024, 2025,
+    2028, 2030] as the input parameter and will check if each year is a leap year. If
+    a year is a leap year insert that year in a new array, return the new array and
+    print the result.
+ */
+
+const years = [2022, 2023, 2024, 2025, 2026, 2027, 2028, 2029, 2030, 2031, 2032]
+function checkLeapYear(years) {
+    let leapYear = []
+    for (let i = 0; i < years.length; i++) {
+        let year = years[i]
+        if ((year % 4 === 0 && year % 100 != 0) || year % 400 === 0) {
+            leapYear.push(year)
+        }
+    }
+    return leapYear
+}
+console.log(checkLeapYear(years))
