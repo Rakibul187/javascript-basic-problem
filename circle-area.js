@@ -1,3 +1,4 @@
+// ===================circle are count==================
 // ## write a function that will take a radius of circle and wil return the area of circle. [hint: area = pai*r^2]
 
 function area(r) {
