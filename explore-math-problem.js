@@ -637,7 +637,7 @@ console.log(result)
 // =================================================37=========================================
 /*
  Write a function and take an array as a parameter. Find the average of all
-the elements of that array and return this average. 
+the elements of that array and return this average.
 */
 /*
  const array = [22, 55, 88, 99, 66, 44, 20, 400]
@@ -654,3 +654,36 @@ function makAvg(array) {
 }
 console.log(makAvg(array))
  */
+
+// ========================================38====================================
+/*
+ Write a function which takes the height and width of a rectangle as
+parameters. Find out the area of that rectangle and print the result.
+rectangle area = height*width;
+*/
+
+/*
+function rectangleArea(height, width) {
+    return height * width;
+}
+console.log(rectangleArea(5, 7))
+ */
+
+// =================================39==============================
+// write a code for finding smallest number from 3 number 
+
+/*
+ const num1 = 100;
+const num2 = 200;
+const num3 = 30;
+
+if (num1 < num2 && num1 < num3) {
+    console.log(num1, ' is the smallest number')
+}
+else if (num2 < num1 && num2 < num3) {
+    console.log(num2, ' is the smallest number')
+}
+else {
+    console.log(num3, ' is the smallest number')
+} 
+*/
