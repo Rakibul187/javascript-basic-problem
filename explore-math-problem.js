@@ -670,7 +670,7 @@ console.log(rectangleArea(5, 7))
  */
 
 // =================================39==============================
-// write a code for finding smallest number from 3 number 
+// write a code for finding smallest number from 3 number
 
 /*
  const num1 = 100;
@@ -685,5 +685,112 @@ else if (num2 < num1 && num2 < num3) {
 }
 else {
     console.log(num3, ' is the smallest number')
-} 
+}
 */
+
+// =========================40================================
+// find the rectangle area
+/*
+ function rectArea(h, w) {
+    return h * w;
+}
+console.log(rectArea(3, 7))
+ */
+// ========================================41=============================
+// comparison in two variable
+/*
+ const a = 3;
+const b = 5;
+if (a > b) {
+    console.log('a is bigger than b')
+}
+else if (a < b) {
+    console.log('b is bigger than a')
+}
+else if (a != b) {
+    console.log('a and b is not equal')
+}
+else if (a === b) {
+    console.log('a equal to b')
+}
+*/
+
+// ========================================42=============================================
+// write a function what will take 3 arms value of triangle and return area .
+/*
+ function triangleArea(a, b, c) {
+    const s = (a + b + c) / 2;
+    const area = Math.sqrt((s * (s - a) * (s - b) * (s - c)), 1 / 2)
+    return area.toFixed(2)
+}
+console.log(triangleArea(3, 7, 5))
+*/
+
+// =========================================43==========================================
+// find largest string element
+/*
+ const friends = ['papon', 'nishat', 'sajeeb', 'joy korkormokar', 'siddique', 'raju', 'sumon', 'rabbi']
+function findLargestName(friends) {
+    let largestFriend = friends[0]
+    for (let i = 0; i < friends.length; i++) {
+        let friend = friends[i]
+        if (friend.length > largestFriend.length) {
+            largestFriend = friend
+        }
+    }
+    return largestFriend
+}
+console.log(findLargestName(friends))
+*/
+
+// find smallest friend
+/*
+ const friends2 = ['papon', 'nishat', 'sajeeb', 'joy korkormokar', 'siddique', 'raju', 'sumon', 'rabbi']
+function findSmallest(friends2) {
+    let smallFriend = friends2[0]
+    for (let i = 0; i < friends2.length; i++) {
+        let friend = friends2[i]
+        if (friend.length < smallFriend.length) {
+            smallFriend = friend
+        }
+    }
+    return smallFriend
+}
+console.log(findSmallest(friends2))
+*/
+
+// ====================================44======================
+// write a program what will sum every positive element of an array till meet negetive number and return positive number sum before meet negetive number and when meet then stop the loop.
+
+/*
+ function positiveNumberSum(numbers) {
+    let sum = 0;
+    for (let i = 0; i < numbers.length; i++) {
+        let number = numbers[i];
+        console.log(i, number)
+        if (number >= 0) {
+            sum += number
+        }
+        else {
+            break;
+        }
+    }
+    return sum
+}
+const numbers = [32, 69, 39, 67, 77, 8, -8, 90, 44, 22, 55]
+console.log(positiveNumberSum(numbers))
+ */
+
+
+
+// function primeNumber(n) {
+//     // if (n == 1) {
+//     //     console.log(n, ' is not a prime number')
+
+//     for (let i = 2; i < n; i++) {
+//         if (n % i === 0) {
+//             return (n + ' is not a prime number')
+//         }
+//     }
+// }
+// console.log(primeNumber(2))
