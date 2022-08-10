@@ -582,6 +582,7 @@ farenToCel(100)
 
 // =================================35================================
 // ---------function grading---------------
+
 /*
  function grading(marks) {
     switch (true) {
@@ -609,5 +610,47 @@ farenToCel(100)
         default: console.log('enter a valid number');
     }
 }
-grading(10) 
+grading(-10)
+ */
+
+// ================================36===============================
+/*
+ Suppose, you have an array with 8 elements. Find the smallest element of
+that array.
+ */
+/*
+ function findSmallest(numbers) {
+    let smallestNumber = numbers[0];
+    for (let i = 0; i < numbers.length; i++) {
+        let number = numbers[i];
+        if (number < smallestNumber) {
+            smallestNumber = number
+        }
+    }
+    return smallestNumber
+}
+const array = [55, 77, 88, 99, 55, 44, 33, 22];
+const result = findSmallest(array);
+console.log(result)
+ */
+
+// =================================================37=========================================
+/*
+ Write a function and take an array as a parameter. Find the average of all
+the elements of that array and return this average. 
 */
+/*
+ const array = [22, 55, 88, 99, 66, 44, 20, 400]
+
+function makAvg(array) {
+    let sum = 0;
+    for (let i = 0; i < array.length; i++) {
+        let element = array[i];
+        if (element >= sum) {
+            sum = sum + element;
+        }
+    }
+    return (sum / array.length)
+}
+console.log(makAvg(array))
+ */
