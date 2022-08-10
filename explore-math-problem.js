@@ -781,16 +781,32 @@ const numbers = [32, 69, 39, 67, 77, 8, -8, 90, 44, 22, 55]
 console.log(positiveNumberSum(numbers))
  */
 
+// =======================================45=======================================
+// prime number checking
 
+/*
+ function primeNumber(n) {
+    if (n == 1) {
+        var res = n + ' is not a prime number';
+    }
+    else if (n < 0) {
+        var res = n + ' is not a prime number';
+    }
+    else {
+        for (let i = 2; i < n; i++) {
+            if (n % i === 0) {
+                var res = n + ' is not a prime number';
+                break;
+            }
+            else {
+                var res = n + ' is a prime number';
+                break;
+            }
+        }
+        return res
+    }
+}
+console.log(primeNumber(25))
+ */
 
-// function primeNumber(n) {
-//     // if (n == 1) {
-//     //     console.log(n, ' is not a prime number')
-
-//     for (let i = 2; i < n; i++) {
-//         if (n % i === 0) {
-//             return (n + ' is not a prime number')
-//         }
-//     }
-// }
-// console.log(primeNumber(2))
+// checking prime number is not correct
