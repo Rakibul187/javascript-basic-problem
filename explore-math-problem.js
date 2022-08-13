@@ -810,3 +810,28 @@ console.log(primeNumber(25))
  */
 
 // checking prime number is not correct
+
+
+/* 
+let money = 0;
+while (money < 10) {
+    money++
+    console.log(money)
+}
+
+for (var i = 0; i < 10; i++) {
+    console.log(i)
+}
+ */
+// checking whethere the thing is variable r not 
+
+let money = [1, 2, 3, 4, 5, 67]
+console.log(Array.isArray(money))
+var taka = 100;
+var name = 'rakib';
+
+function myFunc() {
+    console.log(taka);
+    console.log(name)
+}
+myFunc()
